@@ -1,8 +1,8 @@
-package org.example.patterns;
+package org.example.patterns.strategy;
 
-import org.example.patterns.intro.MallardDuck;
+import org.example.patterns.strategy.MallardDuck;
 
-public class testPattern {
+public class DuckSimulator {
     public static void main(String[] args) {
         MallardDuck mallard = new MallardDuck("Donald", 10);
         mallard.swim();

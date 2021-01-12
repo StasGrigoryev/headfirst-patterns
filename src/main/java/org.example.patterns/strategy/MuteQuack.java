@@ -1,4 +1,4 @@
-package org.example.patterns.intro;
+package org.example.patterns.strategy;
 
 public class MuteQuack implements QuackBehavior{
 
