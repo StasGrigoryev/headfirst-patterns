@@ -1,5 +1,7 @@
 package org.example.patterns.observer;
 
+import java.util.Observer;
+
 public class WeatherTest {
 
     public static void main(String[] args) {
@@ -7,8 +9,8 @@ public class WeatherTest {
 
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(wd);
 
-        wd.setMeasurements(90,40,459);
-        wd.setMeasurements(74,50,450);
-        wd.setMeasurements(52,30,462);
+        wd.setMeasurements(90, 40, 459);
+        wd.setMeasurements(74, 50, 450);
+        wd.setMeasurements(52, 30, 462);
     }
 }
