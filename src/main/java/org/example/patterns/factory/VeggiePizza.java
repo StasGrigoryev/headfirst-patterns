@@ -1,6 +1,6 @@
 package org.example.patterns.factory;
 
-import org.example.patterns.factory.factories.PizzaIngredientFactory;
+import org.example.patterns.factory.ingredientFactories.PizzaIngredientFactory;
 
 public class VeggiePizza extends Pizza {
     PizzaIngredientFactory ingredientFactory;

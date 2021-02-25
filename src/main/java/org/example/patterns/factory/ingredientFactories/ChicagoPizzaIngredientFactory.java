@@ -1,7 +1,8 @@
-package org.example.patterns.factory.factories;
+package org.example.patterns.factory.ingredientFactories;
 
 import org.example.patterns.factory.ingredients.*;
 
+//This class is a concrete org.example.patterns.factory for creating new instances of products
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override

@@ -13,6 +13,7 @@ public abstract class PizzaStore {
         return pizza;
     }
 
+    // org.example.patterns.factory method
     protected abstract Pizza createPizza(String type);
 
 }

@@ -1,10 +1,11 @@
 package org.example.patterns.factory;
 
-import org.example.patterns.factory.factories.NYPizzaIngredientFactory;
-import org.example.patterns.factory.factories.PizzaIngredientFactory;
+import org.example.patterns.factory.ingredientFactories.NYPizzaIngredientFactory;
+import org.example.patterns.factory.ingredientFactories.PizzaIngredientFactory;
 
 public class NYPizzaStore extends PizzaStore {
 
+    //org.example.patterns.factory method implementation
     @Override
     protected Pizza createPizza(String type) {
         Pizza pizza = null;
